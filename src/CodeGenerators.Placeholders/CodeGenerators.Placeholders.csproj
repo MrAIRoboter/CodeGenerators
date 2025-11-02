@@ -1,10 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <RootNamespace>CodeGenerators.Placeholders</RootNamespace>
-  </PropertyGroup>
-
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<RootNamespace>CodeGenerators.Placeholders</RootNamespace>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>MrAIRoboter.CodeGenerators.Placeholders</PackageId>
+		<Version>1.0.1</Version>
+		<Authors>MrAIRoboter</Authors>
+		<Description>Placeholder types for code generation scenarios.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/MrAIRoboter/CodeGenerators</RepositoryUrl>
+		<DevelopmentDependency>true</DevelopmentDependency>
+	</PropertyGroup>
 </Project>
