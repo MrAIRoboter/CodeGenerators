@@ -41,17 +41,17 @@ public sealed class RequestAuthorizerCodeBuilder
 
     public RequestAuthorizerCode Build()
     {
-        HeaderImports headerImports = new HeaderImports(_requestAuthorizerInterfaceNamespace,
-                                                        _userContextInterfaceNamespace,
-                                                        _requestTypeNamespace,
-                                                        _responseTypeNamespace);
+        Imports imports = new Imports(_requestAuthorizerInterfaceNamespace,
+                                      _userContextInterfaceNamespace,
+                                      _requestTypeNamespace,
+                                      _responseTypeNamespace);
 
         Dictionary<string, string> flagPermissionPairs = GenerateFlagPermissionPairs();
         MachineFlags machineFlags = new MachineFlags(flagPermissionPairs.Keys.ToList());
         BuiltInChecks builtInChecks = new BuiltInChecks(flagPermissionPairs);
         CodePlaceholders placeholders = new CodePlaceholders(_codeTemplate);
 
-        placeholders.Replace("%HeaderImports%", headerImports)
+        placeholders.Replace("%Imports%", imports)
                     .Replace("%Namespace%", _targetNamespace)
                     .Replace("%ClassName%", _className)
                     .Replace("%RequestType%", _requestTypeName)

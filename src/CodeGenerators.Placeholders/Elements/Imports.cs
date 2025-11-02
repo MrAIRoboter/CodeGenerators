@@ -2,16 +2,16 @@
 using CodeGenerators.Placeholders.Elements.Interfaces;
 
 namespace CodeGenerators.Placeholders.Elements;
-public sealed class HeaderImports : IRenderableCode
+public sealed class Imports : IRenderableCode
 {
     private HashSet<string> _namespaces;
 
-    public HeaderImports(HashSet<string> namespaces)
+    public Imports(HashSet<string> namespaces)
     {
         _namespaces = namespaces;
     }
 
-    public HeaderImports(params string[] namespaces)
+    public Imports(params string[] namespaces)
     {
         _namespaces = namespaces.ToHashSet();
     }

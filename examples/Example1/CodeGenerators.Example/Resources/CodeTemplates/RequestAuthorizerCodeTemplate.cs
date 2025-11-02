@@ -1,6 +1,6 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
-%HeaderImports%
+%Imports%
 
 namespace %Namespace%;
 
