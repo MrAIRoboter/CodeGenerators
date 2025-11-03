@@ -6,7 +6,7 @@
 		<RootNamespace>CodeGenerators.Placeholders</RootNamespace>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageId>MrAIRoboter.CodeGenerators.Placeholders</PackageId>
-		<Version>1.0.3</Version>
+		<Version>1.0.4</Version>
 		<Authors>MrAIRoboter</Authors>
 		<Description>Placeholder types for code generation scenarios.</Description>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>

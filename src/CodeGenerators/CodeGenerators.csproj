@@ -6,7 +6,7 @@
     <RootNamespace>CodeGenerators</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>MrAIRoboter.CodeGenerators</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>MrAIRoboter</Authors>
     <Description>It makes it a bit easier to create code generators.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
