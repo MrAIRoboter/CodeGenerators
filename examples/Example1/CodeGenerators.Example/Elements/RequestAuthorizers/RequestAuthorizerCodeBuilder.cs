@@ -8,7 +8,7 @@ public sealed class RequestAuthorizerCodeBuilder
     private readonly string _saveFilePath;
     private readonly string _codeTemplate;
 
-    #region %HeaderImports%
+    #region %Imports%
     private readonly string _requestAuthorizerInterfaceNamespace;
     private readonly string _userContextInterfaceNamespace;
     private readonly string _requestTypeNamespace;
