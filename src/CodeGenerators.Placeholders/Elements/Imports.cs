@@ -4,7 +4,7 @@ using CodeGenerators.Placeholders.Elements.Interfaces;
 namespace CodeGenerators.Placeholders.Elements;
 public sealed class Imports : IRenderableCode
 {
-    private HashSet<string> _namespaces;
+    private readonly HashSet<string> _namespaces;
 
     public Imports(HashSet<string> namespaces)
     {
