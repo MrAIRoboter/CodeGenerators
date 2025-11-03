@@ -11,6 +11,5 @@
 		<Description>Placeholder types for code generation scenarios.</Description>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<RepositoryUrl>https://github.com/MrAIRoboter/CodeGenerators</RepositoryUrl>
-		<DevelopmentDependency>true</DevelopmentDependency>
 	</PropertyGroup>
 </Project>
